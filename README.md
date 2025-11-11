@@ -1,20 +1,31 @@
-# Terjemahan Buku Shalat Lengkap
+# WHAT IS PROPERTY?
 
-Huseyin Hilmi Isik
+PIERRE-JOSEPH PROUDHON
 
-Percetakan: Ihlâs Gazetecilik A.Ş.
+translated by BENJAMIN TUCKER
 
-Merkez Mah. Ihlas Plaza No: 11A / 41
+This ebook is the product of many hours of hard work by volunteers
+for Standard Ebooks, and builds on the hard work of other literature
+lovers made possible by the public domain.
 
-34197 Yenibosna-ISTANBUL Tel: 0,212.4543000
+This particular ebook is based on a transcription from Wikisource
+and on digital scans from the Internet Archive.
 
-ISBN: 975-92119-3-9
+The source text and artwork in this ebook are believed to be in the
+United States public domain; that is, they are believed to be free of
+copyright restrictions in the United States. They may still be
+copyrighted in other countries, so users located outside of the
+United States must check their local laws before using this ebook.
+The creators of, and contributors to, this ebook dedicate their
+contributions to the worldwide public domain via the terms in the
+CC0 1.0 Universal Public Domain Dedication. For full license
+information, see the Uncopyright at the end of this ebook.
 
-Sumber https://www.freebookscity.com/terjemahan-buku-shalat-lengkap-44580.html?language=ID
-
-Terjemahan dari Bahasa Turki
-
-Desain Cover: Hariyanto
+Standard Ebooks is a volunteer-driven project that produces ebook
+editions of public domain literature using modern typography,
+technology, and editorial standards, and distributes them free of
+cost. You can download this and other ebooks carefully produced for
+true book lovers at standardebooks.org.
 
 Disclaimer
 
