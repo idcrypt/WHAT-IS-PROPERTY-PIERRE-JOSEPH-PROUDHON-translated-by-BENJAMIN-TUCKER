@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-  <title>Terjemahan Buku Shalat Lengkap</title>
+  <title>WHAT IS PROPERTY? PIERRE-JOSEPH PROUDHON translated by BENJAMIN TUCKER</title>
 
   <!--
     Catatan: file ini sengaja verbose (banyak komentar & struktur) agar mudah dibaca.
-    Total halaman diatur oleh TOTAL_PAGES (default 145).
+    Total halaman diatur oleh TOTAL_PAGES (default 445).
     Pastikan:
-      - images/page1.png ... images/page950.png tersedia
+      - images/page1.png ... images/page445.png tersedia
       - sounds/flip.mp3 tersedia
       - js/jquery.min.js dan js/turn.min.js tersedia
   -->
@@ -257,7 +257,7 @@
       <div style="display:flex;gap:10px;align-items:center">
         <button id="fullscreenToggle" class="btn secondary">Toggle Fullscreen</button>
         <button id="themeToggle" class="btn secondary">🌙 Theme</button>
-        <div id="pageInfo" class="info">Halaman 1 / 145</div>
+        <div id="pageInfo" class="info">Halaman 1 / 445</div>
       </div>
     </header>
 
@@ -278,7 +278,7 @@
 
       <div class="goto">
         <label style="color:var(--muted)">Ke halaman</label>
-        <input id="gotoInput" type="number" min="1" max="145" value="1">
+        <input id="gotoInput" type="number" min="1" max="445" value="1">
         <button id="gotoBtn" class="btn">Go</button>
       </div>
     </div>
@@ -309,11 +309,11 @@
     /* =========================
        CONFIG & STATE
        ========================= */
-    const TOTAL_PAGES = 145;     // sesuaikan kalau berubah
+    const TOTAL_PAGES = 445;     // sesuaikan kalau berubah
     const PER_BLOCK = 10;        // pagination per block
     const A4_ASPECT = 1.41421356; // tinggi/lebar ≈ 297/210
-    const MAX_BOOK_WIDTH = 145; // maksimal lebar book (adjustable)
-    const PRELOAD_COUNT = 145;    // halaman pertama yang dipreload sebelum sembunyikan loader
+    const MAX_BOOK_WIDTH = 445; // maksimal lebar book (adjustable)
+    const PRELOAD_COUNT = 445;    // halaman pertama yang dipreload sebelum sembunyikan loader
 
     let currentPage = 1;         // halaman aktif (1-based)
     let currentBlock = 1;
@@ -725,21 +725,18 @@
     // Manual juz start mapping — sesuai mushaf Madinah (604 halaman)
 // Sesuaikan nomor halamannya dengan versi PDF / image kamu
 const juzStarts = [
-  11,  // Juz 2
-  24,  // Juz 3
-  30,  // Juz 4
-  35,  // Juz 5
-  81, // Juz 6
-  88,
-  104,
-  109
-];
+  47,  // Juz 2
+  72,  // Juz 3
+  110,  // Juz 4
+  168,  // Juz 5
+  231 // Juz 6
+ ];
 
 
     function buildJuzNav(){
       const $nav = $("#juzNav");
       $nav.empty();
-      for(let i=1;i<=8;i++){
+      for(let i=1;i<=5;i++){
         const btn = $("<button>").text(`BAB ${i}`).on("click", ()=>goTo(juzStarts[i-1]));
         $nav.append(btn);
       }
